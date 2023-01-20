@@ -7,7 +7,7 @@ function MovieScreen({
   setPage,
   movieList,
   addMovieHandler,
-  removieMovie,
+  removeMovie,
 }) {
   const increment = () => {
     setPage(page + 1);
@@ -22,7 +22,7 @@ function MovieScreen({
         key={index}
         movie={movie}
         addMovie={addMovieHandler}
-        removeMovie={removieMovie}
+        removeMovie={removeMovie}
         list={list}
       />
     );
